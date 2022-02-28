@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+Rounded+1c:wght@300&family=Nanum+Gothic&family=Noto+Serif+Display&family=PT+Serif:ital@1&family=Rubik:wght@300&family=Smooch+Sans&display=swap');
+
+.backBtn{
+    margin: 5px 0;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.movie{
+    background-color: rgb(240, 236, 236);
+    padding:40px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(6, auto);
+}
+
+.title{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.img{
+    max-width: 80%;
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+
+.year{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 20px;
+}
+
+.rating{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 8px 0;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+.descripton{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.genre{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    list-style-type: none;
+    padding: 0;
+}
+
+.genreList{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 199);
+    font-family: 'Rubik', sans-serif;
+}
+
+.url{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    font-family: 'Nanum Gothic', sans-serif;
+}
